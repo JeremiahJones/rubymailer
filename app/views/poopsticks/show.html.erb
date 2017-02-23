@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @poopstick.name %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @poopstick.age %>
+</p>
+
+<%= link_to 'Edit', edit_poopstick_path(@poopstick) %> |
+<%= link_to 'Back', poopsticks_path %>

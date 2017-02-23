@@ -1,0 +1,1 @@
+json.partial! "poopsticks/poopstick", poopstick: @poopstick

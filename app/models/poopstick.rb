@@ -1,0 +1,2 @@
+class Poopstick < ApplicationRecord
+end
